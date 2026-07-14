@@ -1,0 +1,28 @@
+# Task List: AI Voicebot Build
+
+## Phase 1: The Foundation
+- [x] Create `requirements.txt`
+- [x] Create `core/logger.py`
+- [x] Create `core/config.py`
+
+## Phase 2: The ML Engine
+- [x] Create `ml_models/asr_whisper.py`
+- [x] Create `ml_models/intent_bert.py`
+- [x] Create `ml_models/tts_engine.py`
+
+## Phase 3: The Web API
+- [x] Create `api/main.py`
+- [x] Create `api/routes.py`
+
+## Phase 4: Full App Testing
+- [x] Run test requests against model architecture with FastAPI
+
+## Phase 5: The Interface (Vanilla Frontend)
+- [x] Update `api/main.py` with CORS middleware
+- [x] Create `frontend/index.html`
+- [x] Create `frontend/style.css`
+- [x] Create `frontend/app.js`
+
+## Phase 6: Agentic AI
+- [ ] Replace BERT with LLM framework
+- [ ] Give the Voicebot "Tools"

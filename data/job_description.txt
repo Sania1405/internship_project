@@ -1,0 +1,18 @@
+ROLE: Backend Software Engineer Intern
+COMPANY: TechCorp Inc.
+LOCATION: Remote
+
+ABOUT US:
+We are a fast-growing tech startup building high-performance APIs for the healthcare sector. Our stack is primarily Python, FastAPI, and Docker. Our company culture values autonomy, rapid iteration, and open-source contribution. We expect employees to be self-starters.
+
+RESPONSIBILITIES:
+- Build and maintain RESTful APIs using FastAPI.
+- Write unit tests using pytest.
+- Optimize backend database queries.
+- Collaborate with the frontend team to define JSON contracts.
+
+REQUIREMENTS:
+- Experience with Python 3.9+.
+- Understanding of HTTP protocols and REST API design.
+- Familiarity with version control (Git).
+- Strong communication skills.

@@ -1,0 +1,63 @@
+# AI Voicebot Implementation Roadmap
+
+This plan is designed to help you transition from research-level model training to professional software engineering. We will build this project carefully, step-by-step, ensuring you understand *why* we are structuring it this way.
+
+## Learning Objectives
+1. **System & Architecture:** Understand how to decouple ML logic from web server logic.
+2. **Model Serving:** Learn how to wrap heavy models (like Whisper and BERT) into classes so they are loaded into memory exactly once.
+3. **API Engineering:** Master building RESTful endpoints using FastAPI so your AI can be queried over the web by any frontend.
+
+---
+
+## Step-by-Step Build Plan
+
+### Phase 1: The Foundation (Environment & Core Utilities)
+Before writing any AI code, professional engineers set up robust foundations.
+* **Goal:** Create a reproducible environment, set up logging to track system states, and create a configuration manager.
+* **Tasks:**
+  * [ ] Create `requirements.txt` to lock our dependencies.
+  * [ ] Build `core/logger.py` to handle all our system console and file logging.
+  * [ ] Build `core/config.py` using `pydantic-settings` to securely handle application configurations and `.env` variables.
+
+### Phase 2: The ML Engine (Model Wrapping)
+We will take your underlying models and wrap them in clean Python classes. This makes debugging easier and allows the API to safely interact with them.
+* **Goal:** Create Object-Oriented wrappers around the ASR, Intent Classification, and TTS systems.
+* **Tasks:**
+  * [ ] Develop `ml_models/asr_whisper.py` — A class that loads the Whisper model and implements a `.transcribe(audio_file)` method.
+  * [ ] Develop `ml_models/intent_bert.py` — A class that loads your fine-tuned BERT and uses a `.predict(text)` method.
+  * [ ] Develop `ml_models/tts_engine.py` — A class that implements a `.generate_audio(text)` method (using gTTS or Coqui).
+
+### Phase 3: The Web API (FastAPI Integration)
+We will bind the ML classes we built in Phase 2 to a high-performance web server.
+* **Goal:** Expose your local models so that they can receive audio/text requests via standard HTTP POST calls.
+* **Tasks:**
+  * [ ] Build `api/main.py` — The core setup file for the FastAPI application, handling app startup events (which is when we will load the models into RAM).
+  * [ ] Build `api/routes.py` — The HTTP endpoints (e.g., `/transcribe`, `/predict-intent`) that take a user's request, pass data to the ML models, and return JSON.
+
+### Phase 4: End-to-End Testing
+* **Goal:** Verify that the system works efficiently as a cohesive unit.
+* **Tasks:**
+  * [ ] Test individual endpoints via FastAPI's built-in Swagger UI (`http://localhost:8000/docs`).
+  * [ ] Run an end-to-end chain: Audio -> Whisper -> Text -> BERT -> Intent & Response -> TTS Audio.
+
+### Phase 5: The Interface (Vanilla Web Frontend)
+* **Goal:** Build a beautiful, real-world frontend interface so any user can actually talk to the Voicebot without developer tools! We will use raw HTML, CSS, and JS (No React required!).
+* **Tasks:**
+  * [ ] Create `frontend/index.html` — The structural shell of the web app with a central glowing microphone button.
+  * [ ] Create `frontend/style.css` — High-end, premium styling using a dark-mode glassmorphism design language.
+  * [ ] Create `frontend/app.js` — The logic to physically capture microphone audio from the user's browser, send it to your `POST /chat` endpoint, and play the returned `.mp3` audio response automatically!
+  * [ ] Update `api/main.py` with CORS middleware so your frontend is allowed to talk to your backend safely.
+
+![Voicebot Frontend Mockup](C:\Users\hp5cd\.gemini\antigravity\brain\ac656c0c-cdfc-45c4-9b5f-9f2fe8ec1694\voicebot_ui_mockup_1775981696028.png)
+
+### Phase 6: Level Up to Agentic AI
+* **Goal:** To make this an advanced resuming-building project, we will replace the rigid intent classifier with a true reasoning Agent (LLM) that can hold conversations and use tools!
+* **Tasks:**
+  * [ ] Replace the BERT Intent model with an LLM framework (like Langchain or direct Groq/OpenAI calls).
+  * [ ] Give the Voicebot "Tools" so it can look things up on the internet or check a database.
+
+---
+
+## User Review Required
+
+Does this new plan to build a vanilla HTML/CSS frontend and level up to Agentic AI sound like what you are looking for? Let me know so we can start generating the website files!

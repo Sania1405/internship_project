@@ -1,0 +1,181 @@
+2026-04-12 10:15:55,463 - voicebot_logger - INFO - Server is starting up... Hiring our ML Employees!
+2026-04-12 10:15:55,464 - voicebot_logger - INFO - Loading Whisper model (size: base)... This might take a moment.
+2026-04-12 10:16:39,108 - voicebot_logger - INFO - Whisper model loaded successfully!
+2026-04-12 10:16:39,108 - voicebot_logger - INFO - Loading Intent Model (distilbert-base-uncased)...
+2026-04-12 10:18:06,017 - voicebot_logger - INFO - Intent Model loaded successfully!
+2026-04-12 10:18:06,017 - voicebot_logger - INFO - Initialized TTS Engine (Language: en)
+2026-04-12 10:18:06,018 - voicebot_logger - INFO - All ML models are loaded and ready in RAM!
+2026-04-12 10:20:40,922 - voicebot_logger - INFO - Health check endpoint pinged.
+2026-04-12 10:34:30,403 - voicebot_logger - INFO - Health check endpoint pinged.
+2026-04-12 10:42:59,049 - voicebot_logger - INFO - Received new voice request: jackhammer.wav
+2026-04-12 10:42:59,058 - voicebot_logger - INFO - Transcribing audio file: temp_jackhammer.wav
+2026-04-12 10:42:59,114 - voicebot_logger - ERROR - Error during transcription: [WinError 2] The system cannot find the file specified
+2026-04-12 10:47:11,067 - voicebot_logger - INFO - Received new voice request: sanya_test.mp3
+2026-04-12 10:47:11,070 - voicebot_logger - INFO - Transcribing audio file: temp_sanya_test.mp3
+2026-04-12 10:47:11,090 - voicebot_logger - ERROR - Error during transcription: [WinError 2] The system cannot find the file specified
+2026-04-12 13:27:05,738 - voicebot_logger - INFO - Server is starting up... Hiring our ML Employees!
+2026-04-12 13:27:05,739 - voicebot_logger - INFO - Loading Whisper model (size: base)... This might take a moment.
+2026-04-12 13:27:07,330 - voicebot_logger - INFO - Whisper model loaded successfully!
+2026-04-12 13:27:07,330 - voicebot_logger - INFO - Loading Intent Model (distilbert-base-uncased)...
+2026-04-12 13:27:09,920 - voicebot_logger - INFO - Intent Model loaded successfully!
+2026-04-12 13:27:09,920 - voicebot_logger - INFO - Initialized TTS Engine (Language: en)
+2026-04-12 13:27:09,920 - voicebot_logger - INFO - All ML models are loaded and ready in RAM!
+2026-04-12 13:30:06,101 - voicebot_logger - INFO - Received new voice request: sanya_test.mp3
+2026-04-12 13:30:06,107 - voicebot_logger - INFO - Transcribing audio file: temp_sanya_test.mp3
+2026-04-12 13:30:06,136 - voicebot_logger - ERROR - Error during transcription: [WinError 2] The system cannot find the file specified
+2026-04-12 13:30:33,434 - voicebot_logger - INFO - Health check endpoint pinged.
+2026-04-12 13:35:51,766 - voicebot_logger - INFO - Received new voice request: sanya_test.mp3
+2026-04-12 13:35:51,768 - voicebot_logger - INFO - Transcribing audio file: temp_sanya_test.mp3
+2026-04-12 13:35:56,275 - voicebot_logger - INFO - Predicting intent for text: 'Hi, I am Sanya.'
+2026-04-12 13:35:56,649 - voicebot_logger - INFO - Generating audio for text (length 56). Saving to response_sanya_test.mp3.mp3
+2026-04-12 13:50:53,438 - voicebot_logger - INFO - Server is starting up... Hiring our ML Employees!
+2026-04-12 13:50:53,438 - voicebot_logger - INFO - Loading Whisper model (size: base)... This might take a moment.
+2026-04-12 13:50:55,018 - voicebot_logger - INFO - Whisper model loaded successfully!
+2026-04-12 13:50:55,018 - voicebot_logger - INFO - Loading Intent Model (distilbert-base-uncased)...
+2026-04-12 13:50:57,670 - voicebot_logger - INFO - Intent Model loaded successfully!
+2026-04-12 13:50:57,670 - voicebot_logger - INFO - Initialized TTS Engine (Language: en)
+2026-04-12 13:50:57,670 - voicebot_logger - INFO - All ML models are loaded and ready in RAM!
+2026-04-12 13:53:09,213 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-12 13:53:09,216 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-12 13:53:14,261 - voicebot_logger - INFO - Predicting intent for text: 'Hi, I'm Sanya. I'm so glad to talk to you. I just want to know what's your name.'
+2026-04-12 13:53:14,747 - voicebot_logger - INFO - Generating audio for text (length 121). Saving to response_live_voice.wav.mp3
+2026-04-21 22:45:23,649 - voicebot_logger - INFO - Server is starting up... Hiring our AI Employees!
+2026-04-21 22:45:23,650 - voicebot_logger - INFO - Loading Whisper model (size: base)... This might take a moment.
+2026-04-21 22:45:25,772 - voicebot_logger - INFO - Whisper model loaded successfully!
+2026-04-21 22:45:25,772 - voicebot_logger - INFO - Initialized TTS Engine (Language: en)
+2026-04-21 22:45:25,772 - voicebot_logger - INFO - Initializing ChromaDB RAG Vector Store...
+2026-04-21 22:46:17,116 - voicebot_logger - INFO - Successfully loaded Job Description into RAG Vector Store.
+2026-04-21 22:46:17,116 - voicebot_logger - INFO - Initializing AgentLLM (Groq)...
+2026-04-21 22:46:17,980 - voicebot_logger - INFO - All ML systems (ASR, TTS, RAG, Agent) are loaded and ready!
+2026-04-21 22:49:39,483 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-21 22:49:39,485 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-21 22:49:46,682 - voicebot_logger - ERROR - LLM Chat Error: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-04-21 22:49:46,683 - voicebot_logger - INFO - Generating audio for text (length 73). Saving to response_live_voice.wav.mp3
+2026-04-21 22:50:37,531 - voicebot_logger - INFO - Server is shutting down... Clearing ML registry.
+2026-04-21 22:55:33,392 - voicebot_logger - INFO - Server is starting up... Hiring our AI Employees!
+2026-04-21 22:55:33,393 - voicebot_logger - INFO - Loading Whisper model (size: base)... This might take a moment.
+2026-04-21 22:55:35,613 - voicebot_logger - INFO - Whisper model loaded successfully!
+2026-04-21 22:55:35,614 - voicebot_logger - INFO - Initialized TTS Engine (Language: en)
+2026-04-21 22:55:35,614 - voicebot_logger - INFO - Initializing ChromaDB RAG Vector Store...
+2026-04-21 22:55:37,463 - voicebot_logger - INFO - Successfully loaded Job Description into RAG Vector Store.
+2026-04-21 22:55:37,464 - voicebot_logger - INFO - Initializing AgentLLM (Groq)...
+2026-04-21 22:55:38,481 - voicebot_logger - INFO - All ML systems (ASR, TTS, RAG, Agent) are loaded and ready!
+2026-04-21 22:57:10,046 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-21 22:57:10,048 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-21 22:57:16,994 - voicebot_logger - INFO - Generating audio for text (length 258). Saving to response_live_voice.wav.mp3
+2026-04-21 22:58:27,332 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-21 22:58:27,336 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-21 22:58:40,828 - voicebot_logger - INFO - Generating audio for text (length 436). Saving to response_live_voice.wav.mp3
+2026-04-21 23:00:35,643 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-21 23:00:35,647 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-21 23:00:45,343 - voicebot_logger - INFO - LLM decided to trigger tool: grade_technical_answer with args: {'concept_asked': 'Simple Neural Network Implementation', 'user_answer_transcript': 'In order to implement a neural network, we need to add a lot of layers. There are different layers for different neural networks as talking about the conventional neural network which is basically designed to work on images. We can add padding layer, we can add strides, we can add pooling layer and etc. Yes.'}
+2026-04-21 23:00:46,052 - voicebot_logger - INFO - Generating audio for text (length 679). Saving to response_live_voice.wav.mp3
+2026-04-21 23:02:50,201 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-21 23:02:50,206 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-21 23:02:57,637 - voicebot_logger - INFO - LLM decided to trigger tool: grade_technical_answer with args: {'concept_asked': 'REST API Endpoint Implementation (POST Request)', 'user_answer_transcript': 'to create API endpoints, there are two requests that is get which is use to read the data and the post request is only used to upload or the write the data. So we will be using some decorators along with us and cronious.'}
+2026-04-21 23:02:58,663 - voicebot_logger - INFO - Generating audio for text (length 637). Saving to response_live_voice.wav.mp3
+2026-04-28 09:05:59,583 - voicebot_logger - INFO - Server is starting up... Hiring our AI Employees!
+2026-04-28 09:05:59,584 - voicebot_logger - INFO - Loading Whisper model (size: base)... This might take a moment.
+2026-04-28 09:06:01,180 - voicebot_logger - INFO - Whisper model loaded successfully!
+2026-04-28 09:06:01,180 - voicebot_logger - INFO - Initialized TTS Engine (Language: en)
+2026-04-28 09:06:01,180 - voicebot_logger - INFO - Initializing ChromaDB RAG Vector Store...
+2026-04-28 09:06:03,509 - voicebot_logger - INFO - Successfully loaded Job Description into RAG Vector Store.
+2026-04-28 09:06:03,509 - voicebot_logger - INFO - Initializing AgentLLM (Groq)...
+2026-04-28 09:06:04,015 - voicebot_logger - INFO - All ML systems (ASR, TTS, RAG, Agent) are loaded and ready!
+2026-04-28 09:06:50,147 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-28 09:06:50,149 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-28 09:06:57,417 - voicebot_logger - INFO - LLM decided to trigger tool: grade_technical_answer with args: {'concept_asked': 'Machine Learning Fundamentals', 'user_answer_transcript': 'Please go ahead and ask me the question.'}
+2026-04-28 09:06:57,419 - voicebot_logger - INFO - LLM decided to trigger tool: grade_technical_answer with args: {'concept_asked': 'Similarity with NumPy', 'user_answer_transcript': 'Please go ahead and ask me the question.'}
+2026-04-28 09:06:57,420 - voicebot_logger - INFO - LLM decided to trigger tool: grade_technical_answer with args: {'concept_asked': 'Fundamentals and similarity with Pandas', 'user_answer_transcript': 'Please go ahead and ask me the question.'}
+2026-04-28 09:06:57,611 - voicebot_logger - INFO - Generating audio for text (length 105). Saving to response_live_voice.wav.mp3
+2026-04-28 09:08:44,268 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-28 09:08:44,272 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-28 09:08:52,921 - voicebot_logger - INFO - LLM decided to trigger tool: grade_technical_answer with args: {'concept_asked': 'Machine Learning Fundamentals', 'user_answer_transcript': 'So, supervised machine learning is one of the algorithm, one of the type of machine learning in which it basically deals with the structured and labeled data such that under this the user having the model is fed both the independent columns and the dependent columns and it basically divides into two parts regression and classification, regression, integration, the output column basically consists of continuous values, numerical values whereas in classification the output is based upon the classes.'}
+2026-04-28 09:08:53,323 - voicebot_logger - INFO - Generating audio for text (length 627). Saving to response_live_voice.wav.mp3
+2026-04-28 09:10:01,686 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-28 09:10:01,688 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-28 09:10:04,697 - voicebot_logger - INFO - Generating audio for text (length 106). Saving to response_live_voice.wav.mp3
+2026-04-28 09:13:20,226 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-28 09:13:20,229 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-28 09:13:24,996 - voicebot_logger - INFO - LLM decided to trigger tool: grade_technical_answer with args: {'concept_asked': 'Fundamentals and similarity with Pandas', 'user_answer_transcript': 'We can either use the get group function in which we can get columns of required group or we can use also iLog function which is in which we just have to give the index or column index of row and we can get required in case.'}
+2026-04-28 09:13:25,509 - voicebot_logger - INFO - Generating audio for text (length 581). Saving to response_live_voice.wav.mp3
+2026-04-28 09:15:17,836 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-28 09:15:17,845 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-28 09:15:21,838 - voicebot_logger - INFO - Generating audio for text (length 100). Saving to response_live_voice.wav.mp3
+2026-04-28 09:19:59,995 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-28 09:19:59,999 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-28 09:20:09,186 - voicebot_logger - INFO - LLM decided to trigger tool: grade_technical_answer with args: {'concept_asked': 'Similarity with NumPy', 'user_answer_transcript': "NumPy area is faster, faster than Pandas data frame. Also, NumPy is contain only homogeneous data. Otherwise, in Pandas data frame, heterogeneous data can be stored in NumPy's, if there is index-based indexing on a numeric based indexing in that label based indexing also impossible. And NumPy area can be data only without labels, but in Pandas data frame, heterogeneous data can be stored in NumPy's, if there is index-based."}
+2026-04-28 09:20:09,896 - voicebot_logger - INFO - Generating audio for text (length 880). Saving to response_live_voice.wav.mp3
+2026-04-28 09:21:29,492 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-28 09:21:29,496 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-28 09:21:32,228 - voicebot_logger - INFO - Generating audio for text (length 138). Saving to response_live_voice.wav.mp3
+2026-04-28 09:22:23,511 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-28 09:22:23,515 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-28 09:22:29,677 - voicebot_logger - INFO - LLM decided to trigger tool: grade_technical_answer with args: {'concept_asked': 'Fundamentals and similarity with Pandas', 'user_answer_transcript': 'group by function in data frame used to group the column when it is categorical in nature example in column we have three categories like ushartroot jlinder and chanlever. And if we apply df.group by on column basis it basically groups all the column.'}
+2026-04-28 09:22:30,289 - voicebot_logger - INFO - Generating audio for text (length 827). Saving to response_live_voice.wav.mp3
+2026-04-28 09:23:55,227 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-28 09:23:55,230 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-28 09:23:58,049 - voicebot_logger - INFO - Generating audio for text (length 257). Saving to response_live_voice.wav.mp3
+2026-04-28 09:24:54,085 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-28 09:24:54,090 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-28 09:24:56,944 - voicebot_logger - INFO - LLM decided to trigger tool: query_job_description with args: {'query': 'candidate asks about company, job description, role, expectations, or tech stack from a job posting'}
+2026-04-28 09:24:57,850 - voicebot_logger - INFO - Generating audio for text (length 199). Saving to response_live_voice.wav.mp3
+2026-04-28 09:25:21,766 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-28 09:25:21,770 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-28 09:25:24,939 - voicebot_logger - INFO - Generating audio for text (length 149). Saving to response_live_voice.wav.mp3
+2026-04-28 09:26:45,019 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-28 09:26:45,022 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-28 09:26:55,306 - voicebot_logger - INFO - LLM decided to trigger tool: grade_technical_answer with args: {'concept_asked': 'Machine Learning Fundamentals', 'user_answer_transcript': 'Train test split is basically imported from the scikit-leil library which is used to train and test the model. It basically splits the data that we have into two parts that is train data and training data and testing data. The training data is fed to the model with independent and both, dependent columns so that it can map the output and learn the patterns and test data is used to predict the output and use to test whether the model is able to generalize the pattern or not. The toss validation is basically a number of times doing the checking whether the model is overfitting or not.'}
+2026-04-28 09:26:56,133 - voicebot_logger - INFO - Generating audio for text (length 1159). Saving to response_live_voice.wav.mp3
+2026-04-28 09:32:54,644 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-28 09:32:54,646 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-28 09:32:57,812 - voicebot_logger - INFO - Generating audio for text (length 102). Saving to response_live_voice.wav.mp3
+2026-04-28 09:33:20,184 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-28 09:33:20,189 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-28 09:33:24,036 - voicebot_logger - INFO - LLM decided to trigger tool: grade_technical_answer with args: {'concept_asked': 'Machine Learning Fundamentals', 'user_answer_transcript': 'And otherization is one of the technique in machine learning that is used to deduce the old fitting and there are basically two types R1 and half.'}
+2026-04-28 09:33:34,944 - voicebot_logger - INFO - Generating audio for text (length 856). Saving to response_live_voice.wav.mp3
+2026-04-28 09:34:33,983 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-28 09:34:33,987 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-28 09:34:37,039 - voicebot_logger - INFO - Generating audio for text (length 110). Saving to response_live_voice.wav.mp3
+2026-04-28 09:35:24,320 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-04-28 09:35:24,326 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-04-28 09:35:30,322 - voicebot_logger - INFO - LLM decided to trigger tool: grade_technical_answer with args: {'concept_asked': 'Machine Learning Fundamentals', 'user_answer_transcript': 'We are scaling basically used to raise the data, it being some variables like there is technique like standardization and organization in which we get the standardization of data that everyone and mean zero. All those columns become in one range it is easy to apply.'}
+2026-04-28 09:35:45,238 - voicebot_logger - INFO - Generating audio for text (length 809). Saving to response_live_voice.wav.mp3
+2026-06-23 20:57:42,568 - voicebot_logger - INFO - Server is starting up... Hiring our AI Employees!
+2026-06-23 20:57:42,568 - voicebot_logger - INFO - Loading Whisper model (size: base)... This might take a moment.
+2026-06-23 20:58:02,577 - voicebot_logger - INFO - Server is starting up... Hiring our AI Employees!
+2026-06-23 20:58:02,578 - voicebot_logger - INFO - Loading Whisper model (size: base)... This might take a moment.
+2026-06-23 20:58:03,924 - voicebot_logger - INFO - Whisper model loaded successfully!
+2026-06-23 20:58:03,924 - voicebot_logger - INFO - Initialized TTS Engine (Language: en)
+2026-06-23 20:58:03,924 - voicebot_logger - INFO - Initializing ChromaDB RAG Vector Store...
+2026-06-23 20:58:05,746 - voicebot_logger - INFO - Successfully loaded Job Description into RAG Vector Store.
+2026-06-23 20:58:05,747 - voicebot_logger - INFO - Initializing AgentLLM (Groq)...
+2026-06-23 20:58:06,379 - voicebot_logger - INFO - All ML systems (ASR, TTS, RAG, Agent) are loaded and ready!
+2026-06-23 21:05:21,834 - voicebot_logger - INFO - Server is starting up... Hiring our AI Employees!
+2026-06-23 21:05:21,835 - voicebot_logger - INFO - Loading Whisper model (size: base)... This might take a moment.
+2026-06-23 21:05:22,940 - voicebot_logger - INFO - Whisper model loaded successfully!
+2026-06-23 21:05:22,940 - voicebot_logger - INFO - Initialized TTS Engine (Language: en)
+2026-06-23 21:05:22,941 - voicebot_logger - INFO - Initializing ChromaDB RAG Vector Store...
+2026-06-23 21:05:23,621 - voicebot_logger - INFO - Successfully loaded Job Description into RAG Vector Store.
+2026-06-23 21:05:23,621 - voicebot_logger - INFO - Initializing AgentLLM (Groq)...
+2026-06-23 21:05:24,191 - voicebot_logger - INFO - All ML systems (ASR, TTS, RAG, Agent) are loaded and ready!
+2026-06-23 21:12:32,725 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-06-23 21:12:32,729 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-06-23 21:12:39,175 - voicebot_logger - INFO - Generating audio for text (length 633). Saving to response_live_voice.wav.mp3
+2026-06-23 21:13:48,236 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-06-23 21:13:48,239 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-06-23 21:13:51,513 - voicebot_logger - INFO - LLM decided to trigger tool: query_job_description with args: {'query': 'CTC and role of Backend Engineering Intern at TechCorp Inc.'}
+2026-06-23 21:13:52,637 - voicebot_logger - INFO - Generating audio for text (length 569). Saving to response_live_voice.wav.mp3
+2026-06-23 21:14:37,943 - voicebot_logger - INFO - Server is shutting down... Clearing ML registry.
+2026-07-05 22:06:27,739 - voicebot_logger - INFO - Server is starting up... Hiring our AI Employees!
+2026-07-05 22:06:27,740 - voicebot_logger - INFO - Loading Whisper model (size: base)... This might take a moment.
+2026-07-05 22:06:29,622 - voicebot_logger - INFO - Whisper model loaded successfully!
+2026-07-05 22:06:29,622 - voicebot_logger - INFO - Initialized TTS Engine (Language: en)
+2026-07-05 22:06:29,623 - voicebot_logger - INFO - Initializing ChromaDB RAG Vector Store...
+2026-07-05 22:06:32,078 - voicebot_logger - INFO - Successfully loaded Job Description into RAG Vector Store.
+2026-07-05 22:06:32,079 - voicebot_logger - INFO - Initializing AgentLLM (Groq)...
+2026-07-05 22:06:33,011 - voicebot_logger - INFO - All ML systems (ASR, TTS, RAG, Agent) are loaded and ready!
+2026-07-05 22:07:11,654 - voicebot_logger - INFO - Received new voice request: live_voice.wav
+2026-07-05 22:07:11,660 - voicebot_logger - INFO - Transcribing audio file: temp_live_voice.wav
+2026-07-05 22:07:18,520 - voicebot_logger - INFO - Generating audio for text (length 385). Saving to response_live_voice.wav.mp3
+2026-07-05 22:07:49,732 - voicebot_logger - INFO - Server is shutting down... Clearing ML registry.

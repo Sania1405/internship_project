@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Voicebot</title>
+    <!-- Modern Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Our Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glass-container">
+        <h1>AI Voicebot</h1>
+        <p class="subtitle">Press the microphone and tell me something!</p>
+        
+        <div class="chat-area" id="chatArea">
+            <div class="message system" id="statusMessage">Waiting for you to click the microphone...</div>
+        </div>
+
+        <button id="micBtn" class="mic-button">
+            <!-- SVG Icon for Microphone -->
+            <svg viewBox="0 0 24 24" class="mic-icon">
+                <path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3z"/>
+                <path d="M17 11c0 2.76-2.24 5-5 5s-5-2.24-5-5H5c0 3.53 2.61 6.43 6 6.92V21h2v-3.08c3.39-.49 6-3.39 6-6.92h-2z"/>
+            </svg>
+        </button>
+        
+        <!-- Hidden Audio Element to physically play the TTS result -->
+        <audio id="audioPlayer" hidden></audio>
+    </div>
+
+    <!-- Our Custom Javascript Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
